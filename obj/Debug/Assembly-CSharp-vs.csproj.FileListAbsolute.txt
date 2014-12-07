@@ -1,0 +1,12 @@
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\UnityEditor.dll
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\UnityEngine.dll
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\Mono.Cecil.dll
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\nunit.framework.dll
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\Unity.DataContract.dll
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Programs\Unity\Projects\Homeless\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Programs\Unity\Projects\Homeless\obj\Debug\Assembly-CSharp.dll
+D:\Programs\Unity\Projects\Homeless\obj\Debug\Assembly-CSharp.pdb
+D:\Programs\Unity\Projects\Homeless\Temp\bin\Debug\UnityEngine.UI.dll

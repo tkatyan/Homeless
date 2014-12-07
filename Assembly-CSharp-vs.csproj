@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{99C0A600-E33A-8641-99A1-EF00CA4D8FB6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Programs/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Programs/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\scripts\ChildScript.cs" />
+     <Compile Include="Assets\scripts\Destruction.cs" />
+     <Compile Include="Assets\scripts\GameControllerScript.cs" />
+     <Compile Include="Assets\scripts\Hand.cs" />
+     <Compile Include="Assets\scripts\HeroMover.cs" />
+     <Compile Include="Assets\scripts\MamkaScript.cs" />
+     <Compile Include="Assets\scripts\MenuScript.cs" />
+     <Compile Include="Assets\scripts\PlatformScript.cs" />
+     <Compile Include="Assets\scripts\PostHardcoreHeroScript.cs" />
+     <Compile Include="Assets\scripts\newCharacterScript.cs" />
+     <None Include="Assets\Font\Andika-Basic\README.txt" />
+     <None Include="Assets\Font\DISCO\Freeware License.txt" />
+     <None Include="Assets\Font\pacifico\Pacifico SIL OFL Font License 1.1.txt" />
+     <None Include="Assets\Font\Andika-Basic\Andika OFL License.txt" />
+     <None Include="Assets\Font\Enigmatic\Objets Dart License.txt" />
+     <None Include="Assets\Font\NeoRetroDraw\Font Boutique License.txt" />
+     <None Include="Assets\Font\Andika-Basic\FONTLOG.txt" />
+     <None Include="Assets\Font\Goudy-Bookletter-1911\Barry Schwartz License.txt" />
+     <None Include="Assets\Font\Molot\Freeware License.txt" />
+     <None Include="Assets\Font\Journal\Freeware License.txt" />
+     <None Include="Assets\Font\Ubuntu-Title\GNU Lesser General Public License.txt" />
+     <None Include="Assets\Font\Garton\Freeware License.txt" />
+     <None Include="Assets\Font\Droid-Serif\Google Android License.txt" />
+     <None Include="Assets\Font\UpperEastSide\Freeware License.txt" />
+     <None Include="Assets\Font\architects-daughter\Architects Daughter SIL OFL Font License.txt" />
+     <None Include="Assets\Font\Qikki-Reg\Joanne Taylor Font License.txt" />
+     <None Include="Assets\Font\Flux\Clayton Cowan Font License.txt" />
+     <None Include="Assets\Font\Idolwild\pizzadude.dk License.txt" />
+     <None Include="Assets\Font\Spin-Cycle-OT\Blue Vinyl License.txt" />
+     <None Include="Assets\Font\CAC-Champagne\Freeware License.txt" />
+     <None Include="Assets\Font\Droid-Sans\Google Android License.txt" />
+     <None Include="Assets\Font\Kingthings-Wrote\allfontsinfo.txt" />
+     <None Include="Assets\Font\six-caps\Six Caps SIL OFL Font License 1.1.txt" />
+     <None Include="Assets\Font\Clutchee\Sinisa Komlenic License Agreement.txt" />
+     <None Include="Assets\Font\oswald\Oswald SIL OFL Font License 1.1.txt" />
+     <None Include="Assets\Font\Kingthings-Foundation-\allfontsinfo.txt" />
+     <None Include="Assets\Font\Daniel\Daniel Midgley.txt" />
+     <None Include="Assets\Font\Sansation\Bernd Montag License.txt" />
+     <None Include="Assets\Font\sofia\SIL OFL Font License Sofia.txt" />
+     <None Include="Assets\Font\Capture-it\Cpr.Sparhelt font License.txt" />
+     <None Include="Assets\Font\Quicksand\Quicksand SIL OFL License 1.1.txt" />
+     <None Include="Assets\Font\Kingthings-Foundation-\Kingthings License.txt" />
+     <None Include="Assets\Font\lobster-two\LobsterTwo SIL OFL Font License.txt" />
+     <None Include="Assets\Font\Salaryman\Rotodesign License.txt" />
+     <None Include="Assets\Font\SeasideResortNF\Nick&apos;s Fonts License.txt" />
+     <None Include="Assets\Font\FontleroyBrown\Nick&apos;s Fonts License.txt" />
+     <None Include="Assets\Font\LemonChicken\Crack-a-Jack Studios Font License.txt" />
+     <None Include="Assets\Font\ostrich-sans\SIL Open Font License 1.1.txt" />
+     <None Include="Assets\Font\mountains-of-christmas\Apache License Version 2.txt" />
+     <None Include="Assets\Font\Print-Clearly\Blue Vinyl License.txt" />
+     <None Include="Assets\Font\Crimson\SIL Open Font License 1.1.txt" />
+     <None Include="Assets\Font\Andika-Basic\AndikaBasicR-FAQ-KI.txt" />
+     <None Include="Assets\Font\Shardee\Freeware License.txt" />
+     <None Include="Assets\Font\Mido\Eva Grinder License.txt" />
+     <None Include="Assets\Font\Impact-Label\Tension Type Font License.txt" />
+     <None Include="Assets\Font\Hattori-Hanzo\Creative Commons Attribution License 3.0.txt" />
+     <None Include="Assets\Font\Riesling\Freeware License.txt" />
+     <None Include="Assets\Font\Cantarell\Abattis Cantarell GPL License.txt" />
+     <None Include="Assets\Font\SF-Cartoonist-Hand\ShyFonts Font License.txt" />
+     <None Include="Assets\Font\Kingthings-Wrote\Kingthings License.txt" />
+     <None Include="Assets\Font\st-marie\Creative Commons Attribution Share Alike License.txt" />
+     <None Include="Assets\Font\Walkway\Freeware License.txt" />
+     <None Include="Assets\Font\Rabiohead\pizzadude.dk License.txt" />
+     <None Include="Assets\Font\capsuula\Henrich Fichna Font License.txt" />
+     <None Include="Assets\Font\Andika-Basic\OFL-FAQ.txt" />
+     <None Include="Assets\Font\arizonia\SIL OFL Font License Arizonia.txt" />
+     <None Include="Assets\Font\Cantarell\FONTLOG.txt" />
+     <None Include="Assets\Font\PT-Sans\Paratype PT Sans Free Font License.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
